@@ -5,7 +5,19 @@ body {
     letter-spacing: 0.5px;
 }
 
-.site-header-actionds {
+.logo-link  {
+    transition: oapcity 0.4s ease;
+}
+
+.logo-link:hover {
+     opacity: 0.8;
+}
+
+.logo-link:active {
+    opacity: 0.6;
+}
+
+.site-header-actions {
     display: flex;
     align-items: center;
 }
@@ -22,6 +34,7 @@ body {
 .site-nav-list {
     display: flex;
     list-style-type: none;
+    transition: color #ff7500;
 }
 
 .sitenav-link {
@@ -32,7 +45,17 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: color #ff7500;
 }
+
+.sitenav-link:hover {
+    color: #ff7500;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
+
 
 /* MAIN-LINK */
 
@@ -42,6 +65,15 @@ body {
     background-color: #ff7500;
     color: #fff;
     text-decoration: none;
+    transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+    opacity: 0.8;
+}
+
+.main-link:active {
+    opacity: 0.6;
 }
 
 /* HERO */
@@ -165,6 +197,23 @@ body {
     align-items: center;    
 }
 
+
+.site-footer-socials a {
+    /* transition: ; */
+    color: #252420;
+}
+
+
+.site-footer-socials a svg:hover{
+    color: #ff7500;
+}
+
+
+.site-footer-socials a svg:active{
+    opacity: 0.6;
+}
+
+
 .site-footer-bottom {
     display: flex;
 }
@@ -176,4 +225,12 @@ body {
 .site-footer-links a {  
     text-decoration: none;
     color: #252420;
+}
+
+.site-footer-links a:hover {
+    color: #ff7500;
+}
+
+.site-footer-links a:active {
+    opacity: 0.6;
 }
