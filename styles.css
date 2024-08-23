@@ -5,6 +5,11 @@ body {
     letter-spacing: 0.5px;
 }
 
+*:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
+
 .logo-link  {
     transition: oapcity 0.4s ease;
 }
@@ -45,7 +50,7 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: color #ff7500;
+    transition: color 0.4s ease;
 }
 
 .sitenav-link:hover {
