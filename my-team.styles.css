@@ -1,0 +1,12 @@
+body {
+    font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #014E56;
+}
+
+.my-team-img {
+    margin-left: 1110;
+    padding-top: 48px;
+    color: #FFFFFF;
+}
